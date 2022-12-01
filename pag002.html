@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/ic_launcher.png" type="image/x-icon">
+    <title>Quem somos</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+        main{
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 105vh;
+            background-image: url(imagens/fundopag002.1.jpg);
+            background-size: cover;
+            
+        }
+        header{
+            height: 110px;
+            width: 100%;
+            background-image: url(imagens/20215.jpg);
+            background-position: right top;
+            background-size: cover;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+        }
+        .divheader{
+            width: auto;
+            display: block;
+        }
+        .divheader, img{
+            height: 100px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .titulo{
+            color: wheat;
+            font-family: 'lato', Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            padding: 30px ;
+            text-align: center;
+            font-size: 40px;
+            
+        }
+        div1{
+            height: 250px;
+            width: 350px;
+          
+        }
+        .div2{
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            height: 250px;
+            width: 65%;
+            background-color: rgba(0, 0, 0, 0.700);
+        }
+        .div2 > p{
+            text-align: justify;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            font-weight: 500;
+            padding: 20px;
+            font-size: 25px;
+        }
+        .div3{
+            position: absolute;
+            top: 75%;
+            height: 210px;
+            width: 100%;
+        }
+        .minidiv{
+            display: inline-block;
+            margin: 0px 60px 0px 70px;
+            height: 250px;
+            width: 305px;
+            background-color: rgba(0, 0, 0, 0.700);
+            border: 1px solid red;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.500);
+        }
+        .minidiv > img{
+            position: relative;
+            top: 5%;
+            left: 50%;
+            transform: translate(-50%, -55%);
+            background-color: rgba(240, 248, 255, 0.466);
+            border-radius: 25%;
+        }
+        .minidiv > p{
+            color: white;
+            text-align: justify;
+            font-weight: 100;
+            padding: 10px;
+            font-size: 18px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.623);
+        }
+        .minidiv > h3{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: white;
+            margin-top: -45px;
+            padding: 2px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="divheader">
+            <p class="titulo">
+                Start! A Fábrica de <strong style="color: rgb(218, 12, 12);">Resultados.</strong>
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="div2">
+            <p>
+                    Desde 2017 no mercado, a Academia <i><strong style="color: red;">Start studio fitness</strong></i> tem como objetivo auxiliar e cuidar da saúde de seus alunos, uma academia completa, perfeita para pessoas de todas as idades. Aulas objetivas com profissionais capacitados, espaço de treinamento funcional, trabalhos aeróbicos, musculação, uma academia completa, onde você paga a mensalidade e tem o direito de usufruir de tudo aquilo que ela oferece.
+            </p>
+        </div>
+        <div class="div3">
+            <div  class="minidiv">
+                <img src="imagens/qualidade.png" alt="">
+                <h3>
+                    PROGRAMAS DE TREINO
+                </h3>
+                <p>
+                    A partir dos seus planos, traçamos o melhor programa de treinamento para seus objetivos, sejam eles: ganho de massa muscular, emagrecimento, condicionamento físico.
+                </p>
+
+            </div>
+            <div class="minidiv">
+                <img src="imagens/equipe.png" alt="">
+                <h3>
+                    PROFISSIONAIS QUALIFICADOS
+                </h3>
+                <p>
+                    Nossos profissionais, possuem qualificação superior em Educação física, realizam treinamentos constantes, de modo a oferecer qualidade ao seu treino.
+                </p>
+
+            </div>
+            <div class="minidiv">
+                <img src="imagens/qualidade.png" alt="">
+                <h3>
+                    ESTRUTURA COMPLETA
+                </h3>
+                <p>
+                    Um espaço amplo. Possuímos equipamentos profissionais para diferentes exercícios. Contamos também com uma cantina com produtos nutricionais.
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
